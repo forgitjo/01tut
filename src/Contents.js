@@ -5,7 +5,7 @@ const Contents = () => {
     const [count, setCount] = useState(0);
     
     const handleNameChange = () => {
-        const names = ['Jasurbek', 'Otabek', 'Shuhratbek', 'Farhodbek', 'Umidjon']
+        const names = ['Football', 'Baseball', 'Hokkey', 'Tennis', 'Valleyball']
         const int = Math.floor(Math.random()*5);
         setName(names[int]);
     }
